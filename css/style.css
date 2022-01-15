@@ -67,3 +67,32 @@ margin-left: 10%;
 .collection-detail{
   margin-left: 10px;
 }
+.fa-star.filled{
+  color: orange;
+}
+.fa-star.emouty{
+  color: lightgray;
+}
+.see-mor{
+  text-decoration: none;
+  margin-left: 85%;
+  color:rgb(231, 28, 96) ;
+}
+/* ------------------------------
+            footer style  
+  ------------------------------*/
+  footer{
+    height: 200px;
+    margin-top: 100px;
+    background-color:  rgb(37, 5, 66);
+    color: white;
+    text-align: center;
+    
+  
+  }
+  footer h3{
+    padding-top: 20px;
+  }
+  .footer-icon{
+    margin-right: 10px;
+  }
