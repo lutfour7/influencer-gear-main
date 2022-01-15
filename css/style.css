@@ -96,3 +96,56 @@ margin-left: 10%;
   .footer-icon{
     margin-right: 10px;
   }
+   /*-------------------------------------------------------
+   media quari style 
+   ------------------------------------------------------- */
+   /*--------------------------------------
+   for phoun 
+   ------------------------------------- */
+  @media only screen and (max-width:688px) {
+
+    .top-section{
+      display: inline;
+      display: 100%;
+    
+    }
+    .cammara{
+      border: none;
+    }
+    .introduce h1{
+      font-size: 30px;
+      font-weight: 400;
+    }
+    .collection{
+      display: inline;
+      display: 80%;
+      margin-bottom: 30px;
+    }
+    .see-mor{
+      margin-left: 50%;
+    }
+    .footer{
+      width: 100%;
+    }
+    
+  }
+  /*--------------------------------------------
+  For tab  
+  ---------------------------------------------*/
+  @media only screen and (min-width:688px) and (max-width:992px){
+    .collection{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      margin-left: 45px;
+    }
+    .introduce{width: 90%;
+      margin-left:10px;
+      }
+      .introduce h1{
+        font-size: 40px;
+        font-weight: 500;
+      }
+      .cammara{
+        width: 100%;
+      }
+  }
